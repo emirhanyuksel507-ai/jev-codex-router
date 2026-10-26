@@ -1,0 +1,4 @@
+# Core zero-dependency runner
+# Optional dependencies:
+# typesafe-sdk>=0.2.0
+pytest>=7.0.0

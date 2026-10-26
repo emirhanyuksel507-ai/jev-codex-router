@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jev-codex-router"
+version = "0.1.0"
+description = "System 1 powered ultra-fast Codex prompt router and context pruner"
+readme = "README.md"
+authors = [{ name = "Avenox Engineering" }]
+license = { text = "MIT" }
+requires-python = ">=3.9"
+dependencies = []
+
+[project.optional-dependencies]
+typesafe = ["typesafe-sdk>=0.2.0"]
+dev = ["pytest>=7.0", "ruff>=0.1.0"]
+
+[project.scripts]
+jev-codex-router = "jev_codex_router.hook:main"
